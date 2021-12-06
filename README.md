@@ -4,61 +4,80 @@
 
 ## Description
 
-This app is a study forum for coding bootcamp cohorts where users can sign up and create a profile to create/comment/delete/upvote posts across different pages of the application, such as study topics, coding questions, job postings, interview prep, etc.
+This application is a full-stack web application that serves as a study forum for coding boot camp students. Users can sign up and create a profile to gain CRUD functionality and access to study topics, posts, and comments on different pages of the application. A page of the application is used to host a video chat room where users can communicate virtually, made possible by the Video SDK API.
+
+## User Story
+
+```
+AS A recent coding boot camp graduate and aspiring software engineer,
+I WANT to be able to discuss and share knowledge about topics learned in my coding cohort
+SO THAT I can deepen my knowledge and skill set while increasing my network base.
+```
+
+## Technologies Used
+
+React, Express, Mongoose, GraphQL, Materialize, JSON Web Token, Video SDK API
 
 ## Table of Contents
 
-- [Description](#description)
-
 - [Installation](#installation)
-
 - [Usage](#usage)
-
-- [Application](#application)
-
-- [Contribution](#credits)
-
-- [Tests](#tests)
-
-- [Questions](#questions)
-
 - [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 
-Install Node.js. Run the following command in the terminal:
+Clone the repository from the terminal:
+
+```
+git clone git@github.com:abrahamin/Jungs-Joeys.git
+```
+
+Install NPM packages that are listed as dependencies in the package.json file in the terminal at the root directory:
 
 ```
 npm i
 ```
 
-## Usage
+Populate the database items from the terminal:
+
+```
+npm run seed
+```
+
+Start the application's connection and go to the URL of the application:
 
 ```
 npm run develop
 ```
 
-## Application
+## Usage
 
-[Deployed Application]()
-[Screenshot]()
+The following link will direct you to the deployed application:
 
-## Contribution
+[Jung's Joeys](https://jungsjoeys.herokuapp.com/)
 
-[Lesiana Reid](https://github.com/leci1259),  
-[Parker Satterfield](https://github.com/parkersatterfield),  
-[Abraham Hong](https://github.com/abrahamin)
+A screenshot of the deployed application:
 
-## Tests
-
-none
-
-## Questions
-
-Reach out to my contributors or me  
- Github: [Justin](https://github.com/jeodom17)
+![Screenshot](/img/jj-screenshot.png)
 
 ## License
 
 Released under MIT License Copyright (c) 2013 Mark Otto. Copyright (c) 2017 Andrew Fong
 [MIT](https://opensource.org/licenses/MIT)
+
+## Contributing
+
+Please contact me or my team members. Thank you!
+
+[Justin Odom](https://github.com/jeodom17), [Lesiana Reid](https://github.com/leci1259), [Parker Satterfield](https://github.com/parkersatterfield)
+
+## Tests
+
+This project does not contain any tests.
+
+## Questions
+
+If you have any questions about the repo, open an issue or contact me directly at abrahamin.html@gmail.com. You can find more of my work at [https://github.com/abrahamin/](https://github.com/abrahamin/).
